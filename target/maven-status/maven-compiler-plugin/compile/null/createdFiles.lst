@@ -1,0 +1,6 @@
+org/xyz/mongodb/panache/entity/Order.class
+org/xyz/mongodb/panache/entity/OrderResource.class
+org/xyz/mongodb/panache/entity/ProductResource.class
+org/xyz/mongodb/panache/entity/Customer.class
+org/xyz/mongodb/panache/entity/Product.class
+org/xyz/mongodb/panache/entity/CustomerResource.class
