@@ -13,7 +13,7 @@ import jakarta.ws.rs.core.Response;
 
 import org.bson.types.ObjectId;
 
-@Path("/api/customers")
+@Path("/api/customer")
 @Consumes("application/json")
 @Produces("application/json")
 public class CustomerResource {
