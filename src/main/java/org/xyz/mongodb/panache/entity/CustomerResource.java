@@ -50,8 +50,8 @@ public class CustomerResource {
 
     @GET
     @Path("/search/{name}")
-    public Customer search(String name) {
-        return Customer.findByName(name);
+    public Customer search(String firstName) {
+        return Customer.findByName(firstName);
     }
 
     @DELETE

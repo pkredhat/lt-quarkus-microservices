@@ -86,3 +86,24 @@ mdb_id=$(post_order "Order #21139" "4" "2" "59.99" "2024-05-18" | extract_id)
 mdb_id=$(post_order "Order #21140" "5" "1" "59.99" "2024-05-18" | extract_id)
 mdb_id=$(post_order "Order #21141" "6" "3" "59.99" "2024-05-18" | extract_id)
 mdb_id=$(post_order "Order #21142" "5" "4" "59.99" "2024-05-18" | extract_id)
+
+
+
+
+#Customer Example
+# {
+#     "name": "Johnny",
+#     "surname": "Cash",
+#     "address": "1 Main Street New York 10000",
+#     "phoneNumber": "(212) 234-4567",
+#     "created": "2024-05-26"
+# }
+
+#Order Example
+# {
+#    "name": "Order #31221",
+#    "customerId": "1",
+#    "productId": "2",
+#    "orderTotal": "3",
+#    "createdDate": "2024-05-29"
+# }

@@ -7,7 +7,7 @@ import org.bson.codecs.pojo.annotations.BsonProperty;
 import io.quarkus.mongodb.panache.common.MongoEntity;
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
 
-@MongoEntity(collection = "Product")
+@MongoEntity(collection = "products")
 public class Product extends PanacheMongoEntity {
     
     @BsonProperty("productName")      // will be persisted as a 'firstName' field in MongoDB
