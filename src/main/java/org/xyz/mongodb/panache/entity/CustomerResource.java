@@ -38,6 +38,7 @@ public class CustomerResource {
     @PUT
     @Path("/{id}")
     public void update(String id, Customer customer) {
+        System.out.println("ID PUT : " + id);
         customer.update();
     }
 
